@@ -20,18 +20,23 @@ A priority-based batch ingestion system for processing IDs efficiently with real
 
 ```
 project-root/
-├── server.js               # Main Express server setup
-├── routes/                 # API routes
-│   └── ingestionRoutes.js
-├── controllers/            # Request handlers
+├── controllers/
 │   └── ingestionControllers.js
-├── services/               # Batch processing logic
+├── routes/
+│   └── ingestionRoutes.js
+├── services/
 │   └── queueServices.js
-├── store/                  # In-memory storage
-│   └── memoryStore.js
-├── utils/                  # Priority enumeration
+├── store/
+│   ├── memoryStore.js
+│   └── mongoStore.js  # New MongoDB integration
+├── tests/
+│   └── test.js
+├── utils/
 │   └── priorityEnum.js
-└── test.js                 # Testing script
+├── README.md
+├── package-lock.json
+├── package.json
+└── server.js
 ```
 
 ### Data Flow
@@ -176,11 +181,7 @@ Submitting jobs and checking statuses after processing.
 | Status after completion          | All batches marked as `'completed'`                            |
 
 ---
-
-## Additional Notes
-- The system is ideal for lightweight, in-memory workflows.
-- Can be extended with persistence (DB) and scaling features for production.
-
----
-
-Hope this helps you showcase your project elegantly on GitHub! Would you like me to prepare this as a Markdown file for direct copy-paste?
+//Post Api (ingest)
+![Screenshot 2025-06-05 110417](https://github.com/user-attachments/assets/78234b2c-2a29-40c3-92e2-9d8a6daf66b0)
+//Get Apt (status)
+![Screenshot 2025-06-05 110451](https://github.com/user-attachments/assets/feccfc4e-f405-4f60-ae72-9f468b1e4133)
