@@ -182,5 +182,5 @@ Submitting jobs and checking statuses after processing.
 ---
 //Post Api (ingest)
 ![Screenshot 2025-06-05 110417](https://github.com/user-attachments/assets/78234b2c-2a29-40c3-92e2-9d8a6daf66b0)
-//Get Apt (status)
+//Get Api (status)
 ![Screenshot 2025-06-05 110451](https://github.com/user-attachments/assets/feccfc4e-f405-4f60-ae72-9f468b1e4133)
