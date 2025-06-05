@@ -157,7 +157,7 @@ npm install express axios body-parser uuid
 
 ### 2. Run the Server
 ```bash
-node server.js
+npm start
 ```
 *Output:*  
 `Server running at http://localhost:5000`
