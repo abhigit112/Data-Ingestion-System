@@ -28,7 +28,6 @@ project-root/
 │   └── queueServices.js
 ├── store/
 │   ├── memoryStore.js
-│   └── mongoStore.js  # New MongoDB integration
 ├── tests/
 │   └── test.js
 ├── utils/
